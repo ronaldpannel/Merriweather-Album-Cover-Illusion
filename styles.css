@@ -1,0 +1,48 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+   background-color: black;
+}
+.container{
+    height: 700px;
+    width: 600px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    touch-action: none;
+}
+
+.canvas1{
+    background-color:purple;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border: 1px solid white;
+    max-width: 100%;
+    max-height: 100%;
+    touch-action: none;
+}
+label{
+    position: absolute;
+    color: white;
+    top: 10px;
+    left: 160px;
+    font-size: 20px;
+}
+.rotation{
+    position: absolute;
+    top: 30px;
+    left: 160px;
+    width: 200px;
+}
+.rValue{
+    position: absolute;
+    top: 30px;
+    left: 370px;
+    color: white;
+}

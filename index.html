@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Merriweather Album Cover Illusion</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div class="container">
+      <canvas class="canvas1" id="canvas1"> </canvas>
+      <label for="rotation">Rotation Angle</label>
+      <input
+        type="range"
+        id="rotation"
+        class="rotation"
+        min="0"
+        max="30"
+        step="0.5"
+        value="3"
+      />
+      <p class="rValue" id="rValue">3</p>
+    </div>
+
+
+    <script src="utilities.js"></script>
+    <script src="vector.js"></script>
+    <script src="index.js"></script>
+  </body>
+</html>
